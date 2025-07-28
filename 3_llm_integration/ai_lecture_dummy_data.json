@@ -70,7 +70,7 @@
       "Cross-validation"
     ]
   },
-  "web_search_results": [
+  "webRAG_results": [
     {
       "query": "인공지능 정의 기본 개념",
       "results": [
@@ -117,7 +117,7 @@
       ]
     }
   ],
-  "arxiv_search_results": [
+  "arxiv_results": [
     {
       "query": "artificial intelligence introduction survey",
       "papers": [
