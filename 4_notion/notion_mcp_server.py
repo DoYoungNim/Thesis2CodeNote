@@ -34,7 +34,7 @@ def make_page(query: dict) -> str:
     additional_resuorces = query.get('additional_resuorces', {})
     metadata = query.get('metadata', {})
 
-    page_title = info['title', ""]
+    page_title = info.get('title', "")
 
     # 페이지 생성
     response = notion.pages.create(
