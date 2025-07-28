@@ -1,7 +1,7 @@
 from notion_client import Client
 
-notion = Client(auth="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")
-db_id = "23ebd53bd26080a3a6b4c676ada6842c"
+notion = Client(auth="")
+db_id = ""
 
 
 def make_page(query: dict) -> str:
